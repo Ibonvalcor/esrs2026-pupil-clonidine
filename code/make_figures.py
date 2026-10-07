@@ -1,3 +1,11 @@
+% Created by: Ibon Vales Cortina %
+% Version: 2.1
+% Validated by:
+% Date: 2026-10-07
+% Affiliation: Brain-Body-Regulation Lab, D-HEST, ETH Zürich
+% Copyright (c) 2026, Ibon Vales Cortina. All rights reserved.
+% Contact: ibon.valescortina@hest.ethz.ch
+
 """
 make_figures.py - the numbers and figures of the poster, from the CSV files in data/.
 
