@@ -10,7 +10,7 @@
 Hi there! 👋 You probably landed here by scanning the QR code on our **ESRS 2026 poster (#378)**. Welcome to its
 backstage: the numbers behind every panel, plus one small script that turns them into the figures.
 
-**Noradrenergic suppression may uncouple pupil size from the infraslow sigma rhythm of human sleep**
+**Noradrenergic suppression may uncouple pupil size from the infraslow sigma rhythm of human sleep**<br>
 Vales Cortina I, Carro Domínguez M, Saxer D, Luciani M, Stiefel M, Wenderoth N, Meissner S, Lustenberger C
 
 ## The story in 30 seconds
@@ -81,5 +81,5 @@ Code: MIT licence. Data: CC BY 4.0. If you use any of it, a citation of the post
 Vales Cortina I, et al. *Noradrenergic suppression may uncouple pupil size from the infraslow sigma rhythm of
 human sleep.* ESRS 2026, poster 378.
 
-Questions, ideas, or just want to chat about pupils? ✉️ ibon.valescortina@hest.ethz.ch
+Questions, ideas, or just want to chat about pupils? ✉️ ibon.valescortina@hest.ethz.ch<br>
 Brain Body Regulation Lab, ETH Zurich · funded by the Swiss National Science Foundation (TMSGI1_226129)
