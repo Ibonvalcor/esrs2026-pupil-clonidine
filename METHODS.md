@@ -1,42 +1,56 @@
-# Methods, in one page
+# The nerdy details 🤓
 
-**Design.** 4 healthy adults; after an adaptation nap, three experimental 90-min naps (7.1 ± 1.8 days apart) with
-placebo, 0.075 mg or 0.150 mg clonidine, double-blind, in randomised order.
+Everything about how the numbers were made, in one page.
 
-**Recording.** Polysomnography (EEG Fz, Cz, Pz; EOG; chin EMG; mastoid reference), ECG, and infrared video of
-one eye (taped open). Sleep stages were scored in 30-s epochs.
+**The study.** 4 healthy adults. First an adaptation nap to get used to the lab, then three 90-min naps, 7.1 ± 1.8
+days apart. Before each one they took placebo, 0.075 mg or 0.150 mg clonidine, in random order. Double-blind:
+neither they nor we knew which was which.
 
-**Pupil.** DeepLabCut tracked pupil and iris markers in the video, and ellipses fitted to them gave the
-**pupil / iris diameter ratio**, which does not depend on camera distance. Invalid frames, blinks and values
-outside 0.14–0.78 were removed. Values were clipped to the 1st–95th percentile and gaps were interpolated.
+**What we recorded.**
+- **Brain and body:** EEG at Fz, Cz and Pz, plus eye movements (EOG), chin muscle (EMG) and heart (ECG).
+- **The eye:** infrared video of one eye, taped open.
+- **Sleep stages:** scored in 30-s epochs.
 
-**Pupil infraslow rhythm (ISF) and its phase.** The pupil ratio was low-pass filtered at 0.05 Hz (Butterworth,
-order 2, zero-phase), and its 200-s moving mean was subtracted. The Hilbert transform then gave the phase:
-0° = pupil peak, ±180° = trough.
+**Pupil size.**
+- **Tracking:** DeepLabCut found the pupil and the iris in every video frame, and we fitted ellipses to them.
+- **The measure:** the pupil / iris diameter ratio. It doesn't care how close the camera is.
+- **Cleaning:** we threw out blinks, invalid frames and values outside 0.14–0.78. Then we clipped the rest to the
+  1st–95th percentile and filled the gaps by interpolation.
 
-**Sigma power.** Central EEG (Cz) was band-passed at 13–15 Hz (Butterworth, order 2, zero-phase). Its squared
-Hilbert envelope was low-pass filtered at 0.03 Hz and expressed as Δ% of the nap's mean NREM sigma power.
+**The pupil's slow rhythm (ISF) and its phase.**
+1. Keep only the slow stuff: a low-pass filter at 0.05 Hz (Butterworth, order 2, run forwards and backwards).
+2. Remove the slow drift: subtract a 200-s moving average.
+3. The Hilbert transform tells us where the pupil is in its cycle at every moment (0° = peak, ±180° = trough).
 
-**Spindles.** Spindles were detected with A7 (Lacourse et al., 2019; 11–16 Hz) and curated. "Spindles (%)" is the
-share of NREM samples in a phase bin that lie inside a spindle.
+**Sigma power.**
+1. Take the EEG at Cz and keep 13–15 Hz (Butterworth, order 2, zero-phase).
+2. Its power (the squared Hilbert envelope), low-pass filtered at 0.03 Hz.
+3. Expressed as Δ% of the nap's mean NREM sigma power.
 
-**Coupling (modulation depth).** NREM samples were sorted into 60 bins of pupil-ISF phase (6° each), separately
-for each nap. Each nap's curve was smoothed around the circle (Gaussian, 10 bins). The modulation depth is the
-curve's maximum minus its minimum (`data/phase_curves.csv` holds the unsmoothed curves).
+**Spindles.** Detected with A7 (Lacourse et al., 2019; 11–16 Hz), then curated. "Spindles (%)" is the share
+of NREM moments in a phase bin that fall inside a spindle.
 
-**Rhythms.** Infraslow cycles of the pupil and of sigma power were detected trough to trough. For each nap we
-report their mean amplitude (%) and duration (s), and the spindle density.
+**Coupling (modulation depth).**
+1. Sort the NREM moments of each nap into 60 bins of pupil phase (6° each).
+2. Average sigma power (or the spindle %) in each bin. The raw curves are in `data/phase_curves.csv`.
+3. Smooth each nap's curve around the circle (Gaussian, 10 bins).
+4. The modulation depth is the highest point minus the lowest point.
 
-**Aperiodic exponent.** FOOOF 1.1 (fixed mode, 1–45 Hz) on 30-s windows of the frontal EEG (Fz). Figure 1 pairs it with the
-pupil ratio of the same window (median of the valid samples, ≥ 50 % valid).
+**Rhythms.** We found the slow cycles of the pupil and of sigma power (trough to trough). For each nap we give
+their mean size (amplitude, %) and length (period, s), plus the spindle density.
 
-**Sleep.** Total sleep time, sleep efficiency, sleep-onset latency (to the first N2 epoch), stage % of time in bed,
-slow-oscillation density and amplitude, spindle amplitude, and the share of spindles in trains.
+**Aperiodic exponent.** FOOOF 1.1 (fixed mode, 1–45 Hz) on 30-s windows of the frontal EEG (Fz). Figure 1 pairs it
+with the pupil ratio of the same window (the median of its valid samples, at least 50 % valid).
 
-**Statistics.** Each dose was compared with placebo within participants (d = dose − placebo):
+**Sleep.**
+- **Architecture:** total sleep time, sleep efficiency, time until the first N2 epoch, and % of time in bed spent in
+  each stage.
+- **Slow oscillations:** density and amplitude.
+- **Spindles:** amplitude, and how many come in trains.
 
-- **Effect size:** Hedges' g<sub>z</sub> = J · mean(d) / sd(d), with the exact small-sample factor J.
-- **Confidence interval:** 95 % BCa bootstrap of mean(d), 10,000 resamples, seed 42.
-- **Direction:** "k of n" counts the participants who changed in the same direction.
-- **Correlation:** the repeated-measures correlation r<sub>rm</sub> (Bakdash & Marusich, 2017) is the correlation
-  that remains after each nap's mean is removed.
+**Stats.** Each dose is compared with placebo within the same person (d = dose − placebo).
+- **Hedges' g<sub>z</sub>:** mean(d) / sd(d), times a small-sample correction J.
+- **95 % CI:** BCa bootstrap of mean(d), 10,000 resamples, seed 42.
+- **"Lower in 4/4":** how many people changed in the same direction.
+- **r<sub>rm</sub>:** the repeated-measures correlation (Bakdash & Marusich, 2017), i.e. the correlation that is
+  left after removing each nap's own mean.
