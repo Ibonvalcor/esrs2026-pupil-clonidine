@@ -28,7 +28,7 @@ Vales Cortina I, Carro Domínguez M, Saxer D, Luciani M, Stiefel M, Wenderoth N,
 | Sigma power | 43.0 | 24.8 | −42 %, lower in all 4 people (g<sub>z</sub> = −1.20) |
 | Spindles | 5.3 | 3.6 | −32 %, lower in all 4 people (g<sub>z</sub> = −1.28) |
 
-## Wait, what does "coupling" mean here? 🤔
+## Wait, what does "coupling" mean here?
 
 Picture the pupil's slow cycle: trough → rise → peak → fall → trough. We tag every moment of NREM sleep with
 where the pupil is in that cycle, and then ask: is sigma power (or the chance of a spindle) higher at some points
@@ -69,11 +69,6 @@ python code/make_figures.py
 ```
 
 A few seconds later the key numbers of the poster pop up on your screen, and the figures land in `results/`.
-
-## What's NOT here 🔒
-
-No raw EEG, no eye videos and no pictures of anyone's face. Those stay with us to protect our volunteers.
-Everything here is already boiled down to the numbers you see on the poster.
 
 ## Credit & contact
 
