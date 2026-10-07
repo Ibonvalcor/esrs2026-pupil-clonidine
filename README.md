@@ -36,13 +36,12 @@ sigma power (or spindles) goes up and down with the pupil. A flat curve means no
 | `results/` | what the script writes: 4 figures, `effects.csv` (every effect size), `modulation_depth.csv` |
 | `METHODS.md` | how the data were recorded and computed, in one page |
 
-| Data | In `make_figures.py` | Figure |
-|---|---|---|---|
-| 1 · pupil vs aperiodic exponent | `pupil_vs_exponent.csv` | `pupil_and_exponent()` | `fig1_pupil_and_exponent.png` |
-| 3a · pupil size per stage | `pupil_by_stage.csv` | `same_rhythms()` | `fig2_same_rhythms.png` |
-| 3b · rhythms vs placebo | `rhythms.csv` | `same_rhythms()` | `fig2_same_rhythms.png` |
-| 3c–e · coupling | `example_cycle.csv`, `phase_curves.csv` | `lost_coupling()` | `fig3_lost_coupling.png` |
-| 4 · sleep | `sleep.csv` | `sleep()` | `fig4_sleep.png` |
+| On the poster | Function | Figure in `results/` |
+|---|---|---|
+| 1 · pupil vs aperiodic exponent | `pupil_and_exponent()` | `1_pupil_and_exponent.png` |
+| 3a, 3b · same rhythms | `same_rhythms()` | `3ab_same_rhythms.png` |
+| 3c, 3d, 3e · lost coupling | `lost_coupling()` | `3cde_lost_coupling.png` |
+| 4 · sleep | `sleep()` | `4_sleep.png` |
 
 ## Run it
 
