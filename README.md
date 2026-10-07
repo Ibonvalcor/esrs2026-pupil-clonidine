@@ -31,13 +31,12 @@ sigma power (or spindles) goes up and down with the pupil. A flat curve means no
 
 | Folder | What |
 |---|---|
-| `poster/` | the poster |
 | `data/` | the numbers behind each panel (CSV; participants are P1–P4) |
 | `code/make_figures.py` | one script: all statistics and figures, one function per part of the poster |
 | `results/` | what the script writes: 4 figures, `effects.csv` (every effect size), `modulation_depth.csv` |
 | `METHODS.md` | how the data were recorded and computed, in one page |
 
-| Poster | Data | In `make_figures.py` | Figure |
+| Data | In `make_figures.py` | Figure |
 |---|---|---|---|
 | 1 · pupil vs aperiodic exponent | `pupil_vs_exponent.csv` | `pupil_and_exponent()` | `fig1_pupil_and_exponent.png` |
 | 3a · pupil size per stage | `pupil_by_stage.csv` | `same_rhythms()` | `fig2_same_rhythms.png` |
