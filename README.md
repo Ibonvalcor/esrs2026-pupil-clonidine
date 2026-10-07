@@ -2,12 +2,7 @@
 
 **Noradrenergic suppression may uncouple pupil size from the infraslow sigma rhythm of human sleep**
 Vales Cortina I, Carro Domínguez M, Saxer D, Luciani M, Stiefel M, Wenderoth N, Meissner S, Lustenberger C
-ESRS 2026 · poster 378 · [poster (PDF)](poster/ESRS2026_poster_378.pdf)
-
-This repository holds the numbers behind every panel of the poster and **one short script** that turns them
-into the statistics and figures.
-
-<img src="poster/poster_preview.jpg" width="420" alt="The poster">
+ESRS 2026 
 
 ## In one minute
 
