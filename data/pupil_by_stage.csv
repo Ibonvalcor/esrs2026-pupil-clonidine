@@ -1,0 +1,48 @@
+participant,dose,stage,pupil_iris
+P1,placebo,W,0.5797
+P1,placebo,N1,0.4793
+P1,placebo,N2,0.3386
+P1,placebo,N3,0.2184
+P1,0.075 mg,W,0.5125
+P1,0.075 mg,N1,0.4497
+P1,0.075 mg,N2,0.3096
+P1,0.075 mg,N3,0.2117
+P1,0.075 mg,REM,0.4785
+P1,0.150 mg,W,0.3632
+P1,0.150 mg,N1,0.4741
+P1,0.150 mg,N2,0.3692
+P1,0.150 mg,N3,0.1960
+P1,0.150 mg,REM,0.4561
+P2,placebo,W,0.3356
+P2,placebo,N2,0.2819
+P2,placebo,N3,0.2472
+P2,placebo,REM,0.2534
+P2,0.075 mg,W,0.3932
+P2,0.075 mg,N2,0.2963
+P2,0.075 mg,N3,0.2149
+P2,0.150 mg,N2,0.2636
+P2,0.150 mg,N3,0.2237
+P2,0.150 mg,REM,0.2414
+P3,placebo,W,0.5934
+P3,placebo,N1,0.5515
+P3,placebo,N2,0.3012
+P3,placebo,N3,0.1886
+P3,0.075 mg,N1,0.3280
+P3,0.075 mg,N2,0.2483
+P3,0.075 mg,REM,0.2483
+P3,0.150 mg,W,0.4168
+P3,0.150 mg,N1,0.3749
+P3,0.150 mg,N2,0.2305
+P3,0.150 mg,N3,0.1923
+P4,placebo,W,0.2478
+P4,placebo,N1,0.2579
+P4,placebo,N2,0.2203
+P4,placebo,N3,0.1818
+P4,placebo,REM,0.2206
+P4,0.075 mg,W,0.3906
+P4,0.075 mg,N2,0.2156
+P4,0.075 mg,REM,0.2068
+P4,0.150 mg,W,0.3912
+P4,0.150 mg,N1,0.2593
+P4,0.150 mg,N2,0.2202
+P4,0.150 mg,N3,0.1865

@@ -1,0 +1,9 @@
+participant,placebo,0.075 mg,0.150 mg,measure
+P1,36.58,34.47,22.22,σ power
+P2,22.55,15.76,18.25,σ power
+P3,59.95,73.61,33.83,σ power
+P4,52.72,21.42,25.0,σ power
+P1,5.22,8.02,3.33,Spindles
+P2,6.93,3.82,4.21,Spindles
+P3,7.11,7.29,5.2,Spindles
+P4,2.07,4.46,1.69,Spindles

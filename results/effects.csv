@@ -1,0 +1,39 @@
+part,measure,dose,g_z,ci_low,ci_high,same_direction
+b  rhythms,Pupil-ISF amplitude,0.075 mg,0.324,-0.716,0.712,3/4
+b  rhythms,Pupil-ISF amplitude,0.150 mg,0.499,-0.186,1.042,3/4
+b  rhythms,Pupil-ISF period,0.075 mg,-0.139,-0.882,0.287,2/4
+b  rhythms,Pupil-ISF period,0.150 mg,0.054,-0.657,0.633,2/4
+b  rhythms,σ-ISF amplitude,0.075 mg,0.03,-0.593,0.635,2/4
+b  rhythms,σ-ISF amplitude,0.150 mg,0.38,-0.054,1.136,2/4
+b  rhythms,σ-ISF period,0.075 mg,-0.072,-0.816,0.354,2/4
+b  rhythms,σ-ISF period,0.150 mg,1.235,0.568,1.777,4/4
+b  rhythms,Spindle density,0.075 mg,-0.037,-0.758,0.497,2/4
+b  rhythms,Spindle density,0.150 mg,0.525,0.115,1.278,4/4
+c-e  coupling,Coupling of σ power (modulation depth),0.075 mg,-0.258,-0.978,0.179,3/4
+c-e  coupling,Coupling of σ power (modulation depth),0.150 mg,-1.195,-1.775,-0.615,4/4
+c-e  coupling,Coupling of Spindles (modulation depth),0.075 mg,0.151,-0.612,0.582,3/4
+c-e  coupling,Coupling of Spindles (modulation depth),0.150 mg,-1.277,-1.86,-0.565,4/4
+4  sleep,Total sleep time,0.075 mg,0.332,-0.34,0.933,2/4
+4  sleep,Total sleep time,0.150 mg,0.447,-0.252,1.063,2/4
+4  sleep,Sleep efficiency,0.075 mg,0.374,-0.319,0.953,3/4
+4  sleep,Sleep efficiency,0.150 mg,0.505,-0.218,1.075,3/4
+4  sleep,Sleep-onset latency,0.075 mg,-0.431,-1.15,0.096,3/4
+4  sleep,Sleep-onset latency,0.150 mg,-0.886,-1.551,-0.317,3/4
+4  sleep,Wake (%),0.075 mg,-0.379,-0.957,0.199,3/4
+4  sleep,Wake (%),0.150 mg,-0.502,-1.103,0.22,3/4
+4  sleep,N1 (%),0.075 mg,-0.127,-0.889,0.257,3/4
+4  sleep,N1 (%),0.150 mg,-0.267,-1.007,0.162,2/4
+4  sleep,N2 (%),0.075 mg,0.258,-0.435,0.83,2/4
+4  sleep,N2 (%),0.150 mg,0.475,-0.593,0.858,3/4
+4  sleep,N3 (%),0.075 mg,0.186,-0.345,0.938,2/4
+4  sleep,N3 (%),0.150 mg,1.38,0.797,2.093,4/4
+4  sleep,REM (%),0.075 mg,-0.096,-1.092,0.309,2/4
+4  sleep,REM (%),0.150 mg,-0.333,-1.077,0.095,2/4
+4  sleep,Slow-oscillation density,0.075 mg,0.026,-0.481,0.778,3/4
+4  sleep,Slow-oscillation density,0.150 mg,0.645,0.147,1.412,4/4
+4  sleep,Slow-oscillation amplitude,0.075 mg,0.162,-0.394,0.764,2/4
+4  sleep,Slow-oscillation amplitude,0.150 mg,0.548,0.022,1.206,3/4
+4  sleep,Spindle amplitude,0.075 mg,-0.148,-0.7,0.534,3/4
+4  sleep,Spindle amplitude,0.150 mg,0.012,-0.625,0.624,2/4
+4  sleep,Spindles in trains,0.075 mg,0.99,0.293,1.597,4/4
+4  sleep,Spindles in trains,0.150 mg,1.227,0.732,1.991,4/4
