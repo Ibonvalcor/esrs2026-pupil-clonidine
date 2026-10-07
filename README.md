@@ -5,7 +5,7 @@
   <a href="https://ncm.hest.ethz.ch"><img src="https://ncm.hest.ethz.ch/the-group/_jcr_content/pageimages/imageCarousel.imageformat.carousel.883562710.jpg" width="49%" alt="Neural Control of Movement Lab"></a>
 </p>
 
-# Same rhythms, lost coupling 👁️💤
+# Same rhythms, lost coupling 
 
 Hi there! 👋 You probably landed here by scanning the QR code on our **ESRS 2026 poster (#378)**. Welcome to its
 backstage: the numbers behind every panel, plus one small script that turns them into the figures.
