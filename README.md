@@ -15,12 +15,12 @@ Vales Cortina I, Carro Domínguez M, Saxer D, Luciani M, Stiefel M, Wenderoth N,
 
 ## The story in 30 seconds
 
-- 😴 Four brave volunteers took three naps each while we filmed their pupil. Before each nap they got either
+- Four participants took three naps each while we filmed their pupil. Before each nap they got either
   placebo or clonidine (0.075 or 0.150 mg), a drug that turns down noradrenaline, the brain's "stay alert"
   messenger.
-- 🔁 The pupil kept doing its thing: smaller in deep sleep, and slowly growing and shrinking about once every
+- The pupil kept doing its thing: smaller in deep sleep, and slowly growing and shrinking about once every
   50 s. Sigma power (the spindle band of the EEG) kept its own slow rhythm too.
-- 💔 Under placebo, sigma power and spindles danced along with the pupil's rhythm. With 0.150 mg they stopped
+- Under placebo, sigma power and spindles danced along with the pupil's rhythm. With 0.150 mg they stopped
   following it.
 
 | How much it follows the pupil | placebo | 0.150 mg | change |
@@ -46,7 +46,7 @@ really moves with the pupil. Flat line = they ignore each other.
 | `data/` | the numbers behind each panel (CSV files; participants are P1–P4) |
 | `code/make_figures.py` | one script that does all the stats and draws all the figures |
 | `results/` | what the script makes: 4 figures named after the poster sections, `effects.csv` (every effect size), `modulation_depth.csv` |
-| `METHODS.md` | the nerdy details, in one page 🤓 |
+| `METHODS.md` | the nerdy details, in one page |
 
 Which panel comes from where:
 
@@ -59,7 +59,7 @@ Which panel comes from where:
 | 3d, 3e · coupling per participant | `phase_curves.csv` | `lost_coupling()` | `3cde_lost_coupling.png` |
 | 4 · sleep | `sleep.csv` | `sleep()` | `4_sleep.png` |
 
-## Try it yourself 🧪
+## Try it yourself 
 
 You need Python 3.9 or newer. Then:
 
