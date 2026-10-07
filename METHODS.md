@@ -40,7 +40,3 @@ slow-oscillation density and amplitude, spindle amplitude, and the share of spin
 - **Direction:** "k of n" counts the participants who changed in the same direction.
 - **Correlation:** the repeated-measures correlation r<sub>rm</sub> (Bakdash & Marusich, 2017) is the correlation
   that remains after each nap's mean is removed.
-
-**About the confidence intervals.** With only 4 participants, about 1 in 10 bootstrap resamples has exactly the
-observed mean. Rounding in the last digit then decides on which side such a resample falls. As a result, an
-interval edge can differ by a few tenths from the poster. g<sub>z</sub> and the "k of n" counts are exact.
