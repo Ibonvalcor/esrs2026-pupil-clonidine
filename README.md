@@ -1,5 +1,7 @@
 # Check what we do in [Brain-Body Regulation Lab](https://bbr.ethz.ch) and [Neural Control of Movement Lab](https://ncm.hest.ethz.ch)
 
+...or check my [LinkedIn page](https://www.linkedin.com/in/ibon-vales-cortina-578787296/) in case you want to grab a coffee ☕ and talk about possible collaborations :)
+
 <p align="center">
   <a href="https://bbr.ethz.ch"><img src="https://bbr.ethz.ch/_jcr_content/fullwidthimageHome/image.imageformat.1286.559082857.jpg" width="49%" alt="Brain-Body Regulation Lab"></a>
   <a href="https://ncm.hest.ethz.ch"><img src="https://ncm.hest.ethz.ch/the-group/_jcr_content/pageimages/imageCarousel.imageformat.carousel.883562710.jpg" width="49%" alt="Neural Control of Movement Lab"></a>
