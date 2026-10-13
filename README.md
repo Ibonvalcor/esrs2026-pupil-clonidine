@@ -25,7 +25,7 @@ Vales Cortina I, Carro Domínguez M, Saxer D, Luciani M, Stiefel M, Wenderoth N,
 Pupils, sleep, arousal, noradrenaline... if any of it grabs your attention, we'd love to hear from you: a question about
 the poster, an idea for a collaboration, or just a coffee at the congress.
 
-- ✉️ ibon.valescortina@hest.ethz.ch
-- 💼 [LinkedIn](https://www.linkedin.com/in/ibon-vales-cortina-578787296/)
+- ibon.valescortina@hest.ethz.ch
+- [LinkedIn](https://www.linkedin.com/in/ibon-vales-cortina-578787296/)
 
 Funded by the Swiss National Science Foundation (TMSGI1_226129).
