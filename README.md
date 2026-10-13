@@ -9,7 +9,7 @@
 
 ## Hi!
 
-You probably landed here by scanning the QR code on our **ESRS 2026 poster (#378)**. Thanks for stopping by!
+You probably landed here by scanning the QR code on our **ESRS 2026 poster**. Thanks for stopping by!
 
 **Noradrenergic suppression may uncouple pupil size from the infraslow sigma rhythm of human sleep**<br>
 Vales Cortina I, Carro Domínguez M, Saxer D, Luciani M, Stiefel M, Wenderoth N, Meissner S, Lustenberger C
