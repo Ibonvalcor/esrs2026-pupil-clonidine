@@ -18,7 +18,9 @@ Vales Cortina I, Carro Domínguez M, Saxer D, Luciani M, Stiefel M, Wenderoth N,
 
 - **[Brain-Body Regulation Lab](https://bbr.ethz.ch)** (ETH Zurich): we study how the brain sets its level of arousal and
   how it talks to the rest of the body, from wake to sleep, and what that means for health.
-- **[Neural Control of Movement Lab](https://ncm.hest.ethz.ch)** (ETH Zurich): 
+- **[Neural Control of Movement Lab](https://ncm.hest.ethz.ch)** (ETH Zurich): we study how the brain controls
+  behaviour and adapts to what happens inside and around us, and turn that into non-invasive tools (brain
+  stimulation, neurofeedback, pupil-based biofeedback) to tune brain activity in health and disease.
 
 ## Let's talk ☕
 
